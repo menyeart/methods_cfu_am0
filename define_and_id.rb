@@ -9,18 +9,23 @@
 
 # YOU DO the rest:
 
+#The include method is called on the string object "Hello World" with the string "Hello" as an argument. The include method will determine if the string "Hello World" includes the other string "Hello" and will return a boolean value, in this case true.
 
 "Hello World".include?("Hello")
 
+# The end with method is called on the string object "Hello World" with the string "Hello" as an argument. The end with method will determine if the string "Hello World" ends with the other string "Hello" and will return a boolean value, in this case false.
 
 "Hello World".end_with?("Hello")
 
+# The end with method is called on the string object "Hello World" with the string "rld" as an argument. The end with method will determine if the string "Hello World" ends with the other string "rld" and will return a boolean value, in this case true.
 
 "Hello World".end_with?("rld")
 
+# The even method is called on the integer object 12. No arguments are passed, even will determine if the integer is even or not and return a boolean value, in this case true.
 
 12.even?
 
+# The next method is called on the integer object 18. No arguments are passed, next will return the next consecutive integer, in this case 19.
 
 18.next
 
